@@ -39,6 +39,7 @@ class BerandaFrag : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        //Arrays of Jasa
         namaJasa = arrayOf(
             "Nguyen Comp",
             "Kapunkap Service",
@@ -59,6 +60,7 @@ class BerandaFrag : Fragment() {
         )
         jasaArrayList = arrayListOf<JasaModel>()
 
+        //Arrays of Artikel
         namaArtikel = arrayOf(
             "Update Aplikasi Perlu Tukang",
             "Update Terbaru Untuk Mitra (Tukang)",
@@ -71,6 +73,7 @@ class BerandaFrag : Fragment() {
         )
         artikelArrayList = arrayListOf<ArtikelModel>()
 
+        //Arrays of Gambar
         image = arrayOf(
             R.drawable.airport,
             R.drawable.konstruksi1,
@@ -121,9 +124,13 @@ class BerandaFrag : Fragment() {
         rvArtikel.adapter = ArtikelAdapter(::onClickArtikel, artikelArrayList)
         rvGambar.adapter = GambarAdapter(::onClickGambar, gambarArrayList)
 
-        val snapHelper : LinearSnapHelper = LinearSnapHelper()
-        snapHelper.attachToRecyclerView(rvGambar)
+        val snapHelperGambar : LinearSnapHelper = LinearSnapHelper()
+        snapHelperGambar.attachToRecyclerView(rvGambar)
         rvGambar.smoothScrollBy(10, 0)
+
+        val snapHelperJasa : LinearSnapHelper = LinearSnapHelper()
+        snapHelperJasa.attachToRecyclerView(rvJasa)
+        rvJasa.smoothScrollBy(10, 0)
 
         return view
     }
