@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Beranda"
+        android:icon="@drawable/ic_home"
+        android:id="@+id/beranda"/>
+    <item android:title="Transaksi"
+        android:icon="@drawable/ic_transaksi"
+        android:id="@+id/transaksi"/>
+    <item android:title="Daftar Tukang"
+        android:icon="@drawable/ic_tukang"
+        android:id="@+id/daftar_tukang"/>
+    <item android:title="Isi Saldo"
+        android:icon="@drawable/ic_dompet"
+        android:id="@+id/isi_saldo"/>
+    <item android:title="Akun"
+        android:icon="@drawable/ic_akun"
+        android:id="@+id/akun"/>
+</menu>
