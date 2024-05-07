@@ -44,19 +44,28 @@ class BerandaFrag : Fragment() {
             "Nguyen Comp",
             "Kapunkap Service",
             "Jowo Jaya Center",
-            "Toto Tolata"
+            "Toto Tolata",
+            "Derek Mr. Strong",
+            "Gani Maestro Cat",
+            "Pengawas Gerak Gerik"
         )
         jarak = arrayOf(
             "5.02",
             "20.65",
             "8.55",
             "3.43",
+            "19.65",
+            "7.19",
+            "1.03"
         )
         alamat = arrayOf(
             "Jl. Kemerdekaan Jaya Abadi Gg.4 No.32",
             "Jl. Sokearno Hatta Gg.50 No.65",
             "Jl. Malang - Gresik No. 673",
-            "Jl. Danau Ranau Gg.5 No.6"
+            "Jl. Danau Ranau Gg.5 No.6",
+            "Jl. Kartini No. 777",
+            "Jl. Olimpiade Paris Gg. 56 No. 1",
+            "Jl. Shanghai Maju No. 66",
         )
         jasaArrayList = arrayListOf<JasaModel>()
 

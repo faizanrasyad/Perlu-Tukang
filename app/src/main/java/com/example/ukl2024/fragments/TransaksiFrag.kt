@@ -47,9 +47,9 @@ class TransaksiFrag : Fragment() {
 
         perusahaan = arrayOf(
             "PT Suyanti Repair",
-            "Fahrul Senang Computer",
-            "Bengkel Setiya Abadi",
-            "Konstruktor Andalan"
+            "CV Fahrul Sukasuka",
+            "PT Sang Setiya",
+            "PT Andalanku"
         )
 
         newArrayList = arrayListOf<TransaksiModel>()
