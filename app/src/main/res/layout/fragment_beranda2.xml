@@ -160,8 +160,8 @@
                             android:gravity="center"
                             android:layout_weight="1">
                             <ImageView
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
                                 android:src="@drawable/ac_image"
                                 android:layout_marginBottom="4dp"/>
                             <TextView
@@ -180,8 +180,8 @@
                             android:gravity="center"
                             android:layout_weight="1">
                             <ImageView
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
                                 android:src="@drawable/cat_icon"
                                 android:layout_marginBottom="4dp"/>
                             <TextView
@@ -200,8 +200,8 @@
                             android:gravity="center"
                             android:layout_weight="1">
                             <ImageView
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
                                 android:src="@drawable/cctv_icon"
                                 android:layout_marginBottom="4dp"/>
                             <TextView
@@ -221,8 +221,8 @@
                             android:layout_weight="1">
 
                             <ImageView
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
                                 android:src="@drawable/bangunan_icon"
                                 android:layout_marginBottom="4dp" />
 
@@ -243,8 +243,8 @@
                             android:gravity="center"
                             android:layout_weight="1">
                             <ImageView
-                                android:layout_width="70dp"
-                                android:layout_height="70dp"
+                                android:layout_width="65dp"
+                                android:layout_height="65dp"
                                 android:src="@drawable/derek_icon"
                                 android:layout_marginBottom="4dp"/>
                             <TextView

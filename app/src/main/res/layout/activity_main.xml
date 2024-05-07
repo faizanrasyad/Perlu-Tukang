@@ -25,8 +25,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:background="@drawable/bottom_nav_bar_bg"
         app:menu="@menu/bottom_nav_bar"
-        app:itemTextColor="@color/blue_nav_bar"
-        app:itemIconTint="@color/blue_nav_bar"
+        app:itemTextColor="@color/bottom_nav_bar_state"
+        app:itemIconTint="@color/bottom_nav_bar_state"
         app:itemRippleColor="@color/blue_nav_bar"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
